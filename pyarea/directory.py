@@ -70,7 +70,7 @@ HEADER_FIELDS = (
 
     # 57-64
     ('original_source_type', C.c_char*4),
-    ('units', C.c_int32),
+    ('units', C.c_char*4), 
     ('scaling', C.c_int32),
     ('aux_block_offset', C.c_int32),
     ('aux_block_length', C.c_int32),
